@@ -1,0 +1,13 @@
+<ul>
+  <li (click)="postClicked(currentPost)">What is the smallest amount of power you've ever seen someone abuse?</li>
+  <ul class="posts">
+    <li *ngFor="let currentPost of childPostList">
+      <p><strong>{{currentPost.username}}</strong> {{currentPost.points}} points {{currentPost.daysago}} days ago</p>
+      <p>{{currentPost.content}}</p>                 
+    </li>
+  </ul>
+  <li>What's the weirdest thing you've done while your brain was on autopilot?</li>
+  <li>Divorce lawyers of Reddit, what's the worst way you've seen someone fuck over their spouse?</li>
+  <li>What do you SWEAR you saw, but don't have any proof of?</li>
+  <li>What paranormal experience made you question your skepticism?</li>
+</ul>

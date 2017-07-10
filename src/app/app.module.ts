@@ -8,13 +8,23 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { AskredditComponent } from './askreddit/askreddit.component';
+import { MildlyinterestingComponent } from './mildlyinteresting/mildlyinteresting.component';
+import { ProgrammerhumorComponent } from './programmerhumor/programmerhumor.component';
+import { NosleepComponent } from './nosleep/nosleep.component';
+import { OrdercornComponent } from './ordercorn/ordercorn.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     AboutComponent,
-    MarketplaceComponent
+    MarketplaceComponent,
+    AskredditComponent,
+    MildlyinterestingComponent,
+    ProgrammerhumorComponent,
+    NosleepComponent,
+    OrdercornComponent
   ],
   imports: [
     BrowserModule,

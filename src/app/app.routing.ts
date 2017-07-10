@@ -1,8 +1,11 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { AboutComponent }   from './about/about.component';
-import { MarketplaceComponent }   from './marketplace/marketplace.component';
+import { AskredditComponent }   from './askreddit/askreddit.component';
+import { MildlyinterestingComponent }   from './mildlyinteresting/mildlyinteresting.component';
+import { ProgrammerhumorComponent }   from './programmerhumor/programmerhumor.component';
+import { NosleepComponent }   from './nosleep/nosleep.component';
+import { OrdercornComponent }   from './ordercorn/ordercorn.component';
 
 const appRoutes: Routes = [
   {
@@ -10,12 +13,24 @@ const appRoutes: Routes = [
      component: WelcomeComponent
    },
   {
-    path: 'about',
-    component: AboutComponent
+    path: 'askreddit',
+    component: AskredditComponent
   },
   {
-    path: 'marketplace',
-    component: MarketplaceComponent
+    path: 'mildlyinteresting',
+    component: MildlyinterestingComponent
+  },
+  {
+    path: 'programmerhumor',
+    component: ProgrammerhumorComponent
+  },
+  {
+    path: 'nosleep',
+    component: NosleepComponent
+  },
+  {
+    path: 'ordercorn',
+    component: OrdercornComponent
   }
  ];
 
